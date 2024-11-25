@@ -14,6 +14,6 @@
 2. Run the `.exe` to start the application.
 
 ## Usage
-1. Launch the application and upload your videos and IMU data through the user-friendly interface.
+1. Launch the application and upload your videos and IMU data through the interface.
 2. Navigate to the desired frame (e.g., the moment of takeoff) using the video playback controls.
 3. The app uses the **TFLite MoveNet Pose Estimation algorithm** to analyze body positioning and calculate the metrics automatically.
