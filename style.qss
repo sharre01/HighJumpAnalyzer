@@ -1,0 +1,136 @@
+/* 
+Color Palette:
+- Main Color: rgb(42, 191, 158) (Background)
+- Secondary Color: rgb(34, 153, 127)
+- Accent Color: rgb(28, 125, 104)
+- Neutral Color: rgb(134, 175, 174)
+- White: rgb(255, 255, 255)
+*/
+
+/* Main Window Background */
+QWidget#main_window {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Video Display with Rounded Corners */
+QLabel#video_display {
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    background-color: black; /* Set background to black to match video content */
+}
+
+/* Plot Container with Rounded Corners */
+QWidget#plot_container {
+    border-radius: 15px;
+    border: none;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+/* Metrics Labels Styling */
+QLabel#results {
+    background-color: rgb(28, 125, 104); /* Accent Color */
+    qproperty-alignment: 'AlignCenter';
+    color: rgb(255, 255, 255); /* White text */
+    font-family: 'Arial';
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/* General QPushButton Style */
+QPushButton {
+    background-color: rgb(42, 191, 158); /* Same as background */
+    border: none;
+    color: rgb(255, 255, 255); /* White text */
+    font-size: 12pt;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* QPushButton Hover State */
+QPushButton:hover {
+    background-color: rgb(34, 153, 127); /* Slightly darker shade */
+}
+
+/* QPushButton Pressed State */
+QPushButton:pressed {
+    background-color: rgb(28, 125, 104); /* Even darker shade */
+}
+
+/* Sidebar Buttons */
+QPushButton#upload,
+QPushButton#analysis {
+    margin-top: 10px;
+}
+
+/* Inactive Sidebar Button */
+QPushButton#inactive {
+    background-color: rgba(28, 125, 104, 0.3);
+    color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgb(28, 125, 104);
+    font-size: 12pt;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin-top: 10px;
+}
+
+/* Header Labels */
+QLabel#header {
+    background-color: rgb(28, 125, 104); /* Accent Color */
+    qproperty-alignment: 'AlignCenter';
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(255, 255, 255); /* White text */
+    margin-bottom: 5px;
+    padding: 0px;
+    margin: 2px;
+}
+
+/* Toggle Button */
+QPushButton#toggle_button {
+    background-color: rgb(42, 191, 158);
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16pt;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+QPushButton#toggle_button:hover {
+    background-color: rgb(34, 153, 127);
+}
+
+QPushButton#toggle_button:pressed {
+    background-color: rgb(28, 125, 104);
+}
+
+/* Default QWidget Style */
+QWidget {
+    background-color: transparent;
+    color: rgb(255, 255, 255); /* Default text color */
+}
+
+/* Metrics Master Container */
+QWidget#metmaster {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+/* Video Widget Container (if used) */
+QWidget#vidwidget {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+/* Results Container */
+QWidget#res {
+    background-color: rgb(28, 125, 104); /* Accent Color */
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 300px;
+}
